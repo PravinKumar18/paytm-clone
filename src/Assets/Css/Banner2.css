@@ -1,0 +1,82 @@
+.banner2-top{
+    background: #f5f7fa;
+    padding: 100px;
+}
+.banner2-container{
+    background-color: #fff;
+    border-radius: 12px;
+}
+.logo{
+    width: 80px;
+    box-shadow: 0 5px 20px rgba(0,41,112,.1);
+    border-radius: 16px;
+}
+
+.banner2-wrapup{  
+    display: flex;
+    flex-direction: column;
+    gap: 40px;     
+
+}
+.banner2-container{
+    padding: 100px;
+    display: flex;
+
+    justify-content: space-between;
+}  
+.banner2p{
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 20px;            
+}
+.banner2pp{
+    font-size: 18px;
+    font-weight: initial;
+    line-height: 30px;
+}   
+.bannerimgdown{
+    width: 500px;
+
+}
+@media (min-width:320px) and (max-width:720px){
+.banner2-container{
+    gap: 20px;
+flex-direction: column;  
+}
+.bannerimgdown{
+    width: 200px;
+}
+.banner2-top{
+    background: #f5f7fa;
+    padding: 20px;
+}
+.banner2p{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;            
+}      
+
+.banner2-wrapdown{
+    text-align: center;
+}
+
+.banner2-container{
+    padding: 20px;
+    display: flex;
+     text-align: center;
+    justify-content: space-between;
+}  
+.wrapp{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.banner2-wrapup{  
+
+    gap: 20px;     
+
+}
+}
+
+
